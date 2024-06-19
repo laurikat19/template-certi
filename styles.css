@@ -8,7 +8,7 @@ body {
 .certificate {
     width: 1000px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 20px;
     border-radius: 50px;
 }
 h1 {
@@ -36,5 +36,4 @@ p {
 }
 .logo img {
     width: 150px;
-    background-image: url("https://github.com/laurikat19/template-certi/blob/induccion/CHM_Mineria-Logo.png?raw=true");
 }

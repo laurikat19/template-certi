@@ -17,7 +17,7 @@ h1 {
 }
 p {
     text-align: center;
-    margin: 20px 0;
+    margin: 70px 0;
 }
 .signature {
     margin-top: 100px;
@@ -36,4 +36,5 @@ p {
 }
 .logo img {
     width: 150px;
+    background-image: url("CHM_Mineria-Logo.png");
 }

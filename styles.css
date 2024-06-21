@@ -1,5 +1,4 @@
 body {
-    font-family: 'Young Serif';
     background-image: url("imag-certi.png");
     background-size: cover; 
     background-position: center center;
@@ -14,7 +13,7 @@ body {
 }
 .certificate-bodyname {
     text-align: center;
-    font-family: Edwardian Script ITC;
+    font-family: 'Edwardian Script ITC';
 
 }
 .certificate-header h1 {
@@ -25,6 +24,7 @@ body {
 h1 {
     text-align: center;
     color: #0b0479;
+    font-family: 'Edwardian Script ITC';
 }
 p {
     text-align: center;

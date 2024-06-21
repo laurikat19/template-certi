@@ -1,14 +1,16 @@
 body {
-    background-image: url("imag-certi.png");
+    background-image: url("fondo.png");
     background-size: cover; 
     background-position: center center;
     background-repeat: no-repeat;
     font-size: 24px;
+    height: 100vh
 }
 .certificate {
     width: 800px;
+    width: 80%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
 }
 .certificate-bodyname {
@@ -19,12 +21,13 @@ body {
 .certificate-header h1 {
     font-size: 40px;
     color: #333;
-    margin: 10px 0;
+    margin: 2px 0;
 }
 h1 {
     text-align: center;
     color: #0b0479;
     font-family: 'Edwardian Script ITC';
+    font-size: 100px;
 }
 p {
     text-align: center;
@@ -39,6 +42,10 @@ p {
     margin-top: 100px;
     text-align: right;
 }
+.signature-izq {
+    margin-top: 100px;
+    text-align: left;
+}
 .signature img {
     width: 150px;
 }
@@ -47,5 +54,28 @@ p {
     margin-bottom: 10px;
 }
 .logo img {
-    width: 150px;
+    width: 20%;
+}
+.signatures {
+    display: flex;
+    justify-content: space-between; /* Esto separa las firmas a los lados opuestos */
+    margin-top: 20px;
+}
+.signature-left,
+.signature-right {
+    text-align: center; /* Alinea el contenido al centro dentro de cada firma */
+    flex-basis: 45%; /* Ajusta el ancho de cada firma según necesites */
+}
+
+.signature-left img,
+.signature-right img {
+    max-width: 100px; /* Ajusta el tamaño máximo de las imágenes de firma */
+    height: auto;
+    margin-top: 10px; /* Espacio opcional encima de las imágenes */
+}
+.signature-line {
+    border: none;
+    border-top: 2px solid black; /* Estilo de la línea: sólida de 2px de grosor y negro */
+    width: 100%; /* Ancho completo para que cubra el espacio entre las firmas */
+    margin: 0;
 }

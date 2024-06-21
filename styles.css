@@ -1,38 +1,38 @@
 body {
+    font-family: 'Arial',sans-serif;
     background-image: url("fondo.png");
     background-size: cover; 
     background-position: center center;
     background-repeat: no-repeat;
     font-size: 24px;
     height: 100vh;
-    font-family: "Edwardian Script";
 }
 .certificate {
-    width: 800px;
-    width: 80%;
+    width: 900px;
+    width: 100%;
     margin: 0 auto;
     padding: 10px;
     border-radius: 10px;
 }
 .certificate-bodyname {
     text-align: center;
-    font-family: "Edwardian Script";
+    font-family: 'Arial';
 
 }
 .certificate-header h1 {
     font-size: 40px;
     color: #333;
-    margin: 2px 0;
+    margin: 4px 0;
 }
 h1 {
     text-align: center;
     color: #0b0479;
-    font-family: "Edwardian Script";
+    font-family:'Young';
     font-size: 60px;
 }
 p {
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
     /* font-size: 30px; */
 }
 .signature {
@@ -55,12 +55,14 @@ p {
     margin-bottom: 10px;
 }
 .logo img {
-    width: 20%;
+    width: 10%;
 }
 .signatures {
     display: flex;
-    justify-content: space-between; /* Esto separa las firmas a los lados opuestos */
-    margin-top: 20px;
+    justify-content: space-evenly; /* Esto separa las firmas a los lados opuestos */
+    margin-top: 2px;
+    align-items: center;
+    
 }
 .signature-left,
 .signature-right {
@@ -86,8 +88,19 @@ p {
     margin-top: 20px; /* Espacio superior entre la imagen y el texto */
 }
 .certi img {
+    text-align: center;
+    width: 150px; /* Ancho de la imagen de firma */
+    margin-top: 10px; /* Espacio superior */
+    display: block; /* Asegura que la imagen se centre correctamente */
     display: block; /* Asegura que la imagen se centre correctamente */
     margin: 0 auto; /* Centra la imagen horizontalmente dentro del contenedor */
     max-width: 50%; /* Ajusta la imagen al ancho máximo posible del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
+}
+.signature p {
+    margin-top: 0; /* Eliminar el espacio superior del texto "Firma" */
+    text-align: center;
+}
+.move-right {
+    margin-left: 5px; /* Ajusta el margen izquierdo para mover el texto hacia la derecha */
 }

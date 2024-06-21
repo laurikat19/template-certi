@@ -4,7 +4,8 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     font-size: 24px;
-    height: 100vh
+    height: 100vh;
+    font-family: "Edwardian Script";
 }
 .certificate {
     width: 800px;
@@ -15,7 +16,7 @@ body {
 }
 .certificate-bodyname {
     text-align: center;
-    font-family: 'Edwardian Script ITC';
+    font-family: "Edwardian Script";
 
 }
 .certificate-header h1 {
@@ -26,8 +27,8 @@ body {
 h1 {
     text-align: center;
     color: #0b0479;
-    font-family: 'Edwardian Script ITC';
-    font-size: 100px;
+    font-family: "Edwardian Script";
+    font-size: 60px;
 }
 p {
     text-align: center;
@@ -78,4 +79,15 @@ p {
     border-top: 2px solid black; /* Estilo de la línea: sólida de 2px de grosor y negro */
     width: 100%; /* Ancho completo para que cubra el espacio entre las firmas */
     margin: 0;
+}
+.certi {
+    width: 20%;
+    text-align: center; /* Alineación centrada del contenido dentro del div */
+    margin-top: 20px; /* Espacio superior entre la imagen y el texto */
+}
+.certi img {
+    display: block; /* Asegura que la imagen se centre correctamente */
+    margin: 0 auto; /* Centra la imagen horizontalmente dentro del contenedor */
+    max-width: 50%; /* Ajusta la imagen al ancho máximo posible del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
 }

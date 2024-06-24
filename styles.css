@@ -5,7 +5,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     font-size: 20px;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .certificate {
     width: 700px;

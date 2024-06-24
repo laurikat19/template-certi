@@ -4,7 +4,7 @@ body {
     background-size: cover; 
     background-position: center center;
     background-repeat: no-repeat;
-    font-size: 24px;
+    font-size: 20px;
     height: 100vh;
 }
 .certificate {
@@ -13,6 +13,7 @@ body {
     margin: 0 auto;
     padding: 10px;
     border-radius: 10px;
+    box-sizing: border-box; /* Incluir relleno en el ancho total */
 }
 .certificate-bodyname {
     text-align: center;
@@ -28,7 +29,7 @@ h1 {
     text-align: center;
     color: #0b0479;
     font-family:'Young';
-    font-size: 60px;
+    font-size: 45px;
 }
 p {
     text-align: center;
@@ -86,6 +87,8 @@ p {
     width: 20%;
     text-align: center; /* Alineación centrada del contenido dentro del div */
     margin-top: 20px; /* Espacio superior entre la imagen y el texto */
+    position: relative; /* Posición relativa para permitir posicionamiento absoluto dentro */
+
 }
 .certi img {
     text-align: center;
